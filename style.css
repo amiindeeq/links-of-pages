@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.child{
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.parent{
+    gap: 10px;
+    justify-content: center;
+}
+@media (min-width: 768) {
+    .parent{
+        display: flexbox;
+        color: red;
+    }
+}
